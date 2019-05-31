@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background: url(../image/bird.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.navbar {
+	background-color: transparent;
+	padding: 1% 0;
+	font-size: 1.2em;
+}
+
+.navbar-brand {
+	min-height: 55px;
+	padding: 0 15px 5px;
+}
+
+.navbar-default .navbar-nav li a {
+	color: #23415c;
+}
+
+.navbar-default .navbar-nav li:hover, .navbar-default .navbar-nav a:hover {
+	color: orangered;
+}
+
+.main-section {
+	margin: 0 auto;
+	margin-top: 130px;
+	padding: 0;
+}
+
+.modal-content {
+	background-color: #434e5a;
+	opacity: .8;
+	padding: 0 18px;
+}
+
+.user-img img {
+	height: 120px;
+	width: 120px;
+}
+
+.user-img {
+	margin-top: -60px;
+	margin-bottom: 45px;
+}
+
+.form-group {
+	margin-bottom: 25px;
+}
+
+.form-group input {
+	height: 42px;
+	border-radius: 5px;
+	border: 0;
+	font-size: 18px;
+	letter-spacing: 2px;
+	padding-left: 54px;
+}
+
+.form-group::before {
+	font-family: 'Font Awesome\ 5 Free';
+	content: "\f1fa";
+	position: absolute;
+	font-size: 22px;
+	left: 28px;
+	padding-top: 4px;
+	color: #555e60;
+}
+
+.form-group:last-of-type::before {
+	content: "\f023";
+}
+
+.form-input button {
+	width: 40%;
+	margin: 5px 0 25px;
+}
+
+.btn-success {
+	background-color: #1c6288;
+	font-size: 19px;
+	border-radius: 5px;
+	padding: 7px 14px;
+	border: 1px solid #daf1ff;
+}
+
+.btn-success:hover {
+	background-color: #13445e;
+	border: 1px solid #daf1ff;
+}
+
+.forgot {
+	padding: 5px 0 25px;
+}
+
+.forgot a {
+	color: #daf1ff
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
