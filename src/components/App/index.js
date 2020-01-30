@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import Footer from '../Footer/';
-import Content from '../ResourceCard/Example';
 import ClusterResources from '../ClusterResources/';
 
 /* These below are for showing purposes */
