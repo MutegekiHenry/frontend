@@ -57,15 +57,23 @@ const namespaces = [
             <div id="blank"></div>
             <div class="All-Resources">
                 <table>
+                  <thead>
+                    <tr>
+                      <th>Name</th>
+                      <th>Status</th>
+                      <th>View</th>
+                      <th>Delete</th>
+                    </tr>
+                  </thead>
                     <tbody id="Listing">
                     {
                       namespaces.map((obj) => {
                           return <div>
                             <tr>
-                              <td class="Resource-Name"> ${obj.name} </td>
-                              <td class="Resource-Status"> ${obj.status} </td>
-                              <td><a href ="node/${obj.id}">View</a></td>
-                              <td><a href ="node/delete/${msg.message_id}">Delete</a></td>
+                              <td class="Resource-Name"> {obj.name} </td>
+                              <td class="Resource-Status"> {obj.status} </td>
+                              <td><a href ="node/{obj.id}">View</a></td>
+                              <td><a href ="node/delete/{msg.message_id}">Delete</a></td>
                             </tr>
                           </div>
                       })

@@ -13,7 +13,7 @@ function App() {
       {/* <div><ClusterResources /></div> */}
     {/* </div> */}
     <ResourceList />
-    <Footer />
+    {/* <Footer /> */}
   </div>
 }
 

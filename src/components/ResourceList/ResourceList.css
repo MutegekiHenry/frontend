@@ -1,0 +1,26 @@
+.Resource-List{
+  font-size: 16px;
+}
+.Resource-List .Entire-List, .All-Resources{
+  overflow: scroll;
+}
+table{
+  width: 100%;
+}
+#Listing{
+  display: block;
+  border: 2px solid purple;
+  box-shadow: inset 0 0 10px green;
+
+}
+td a{
+  text-decoration: none;
+  color: pink;
+  padding-left: 5%;
+  display: inline;
+
+}
+td a:hover{
+  color: red;
+  /* background: #23397f; */
+}
