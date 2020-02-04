@@ -4,18 +4,24 @@
 .Resource-List .Entire-List, .All-Resources{
   overflow: scroll;
 }
-table{
+.Resource-List .My-Table {
   width: 100%;
+  border-spacing: 2px;
+  /* border: 4px solid red; */
+}
+td, th{
+  border: none;
+  text-align: left;
 }
 #Listing{
-  display: block;
-  border: 2px solid purple;
-  box-shadow: inset 0 0 10px green;
+  /* display: block; */
+  /* border: 2px solid purple; */
+  /* box-shadow: inset 0 0 10px green; */
 
 }
 td a{
   text-decoration: none;
-  color: pink;
+  color: orange;
   padding-left: 5%;
   display: inline;
 
@@ -23,4 +29,30 @@ td a{
 td a:hover{
   color: red;
   /* background: #23397f; */
+}
+.Resource-List tbody{
+  width: 100%;
+}
+tbody div{
+  width: 100%;
+}
+table th{
+  font-size: 15px;
+  font-weight: 500;
+  /* background: blue; */
+  border-top: 4px solid #aabcfe;
+  border-bottom: 1px solid green;
+  color : #039;
+  padding: 8px;
+  border-collapse: collapse;
+}
+.Resource-List tr{
+  border-bottom: 1px solid red;
+  /* width: inherit; */
+}
+
+thead{
+  display: table-header-group;
+
+  vertical-align: middle;
 }
