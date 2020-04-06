@@ -57,6 +57,13 @@ class UserProjectsPage extends React.Component {
     this.setState({ openModal: false });
   }
 
+  validateName(name) {
+    // eslint-disable-next-line no-useless-escape
+    const nameRegEx = /'^(?!\s*$)'/;
+    return nameRegEx.test(String(name).toLowerCase());
+  }
+
+
   handleSubmit() {
     const { projectName, clusterID } = this.state;
     const { AddProject, data, isAdded } = this.props;
